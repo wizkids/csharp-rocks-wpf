@@ -30,9 +30,29 @@ We expect a well-versed developer to be able to complete the tasks within a coup
 
 #### 1. Write XAML code for displaying a text box and two lists of word prediction results (word prediction web service and custom dictionary).
 
-#### 2. Write event handlers for fetching word predictions using both the web service client and custom dictionary service.
+#### 2. Write handlers for fetching word predictions using both the web service client and custom dictionary service.
 
-#### 3. On every keypress event in the text box: Fetch word predictions based on the text value and display the results in the two lists.
+#### 3. On keystrokes in the text box: Fetch word predictions based on the text value and display the results in the two lists.
+
+- Display the first 10 results from each prediction source.
+- The text value used for predictions text should be based on the position of the caret inside the text box, for example:
+
+```
+Hello, my name is J|ohn Doe and I like pie! 
+```
+
+The extracted text should be from the start of the text box up to the caret, which in this example would be `Hello, my name is J`.
+
+#### 5. Make your word predictions results clickable and insert the clicked prediction into the text box on click.
+
+- The word prediction should be inserted into the text box at the location of the caret.
+
+#### 6. (OPTIONAL) Emphasize the part of each word prediction that has already been written.
+For example, using the text from step #3 `Hello, my name is J` the letter `J` should be emphasized in the predictions `John`, `James` and `June`:
+
+> **J**ohn  
+> **J**ames  
+> **J**une  
 
 
 ## Miscellaneous tasks
