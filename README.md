@@ -43,11 +43,11 @@ Hello, my name is J|ohn Doe and I like pie!
 
 The extracted text should be from the start of the text box up to the caret, which in this example would be `Hello, my name is J`.
 
-#### 5. Make your word predictions results clickable and insert the clicked prediction into the text box on click.
+#### 4. Make your word predictions results clickable and insert the clicked prediction into the text box on click.
 
 - The word prediction should be inserted into the text box at the location of the caret.
 
-#### 6. (OPTIONAL) Emphasize the part of each word prediction that has already been written.
+#### 5. (OPTIONAL) Emphasize the part of each word prediction that has already been written.
 For example, using the text from step #3 `Hello, my name is J` the letter `J` should be emphasized in the predictions `John`, `James` and `June`:
 
 > **J**ohn  
