@@ -16,7 +16,7 @@ If you encounter any unexpected issues please contact us at `srs AT wizkids.dk` 
 
 We expect a simply structured C# WPF application with good readability. Design and UX is not a major consideration - keeping it simple is fine.
 
-We expect a well-versed developer to be able to complete the tasks within a couple of hours.
+We expect a well-versed developer to be able to complete the tasks within a few hours.
 
 *While a simple test project you should structure it as a project meant for a business production environment.*
 
