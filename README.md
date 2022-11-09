@@ -3,7 +3,7 @@
 # C# Rocks!
 
 Welcome to the Wizkids C# test!
-The test is inspired by one of our products (AppWriter) which helps people with reading/writing problems by enabling them to read text out load and get word suggestions (predictions) while typing.
+The test is inspired by one of our products (AppWriter) which helps people with reading/writing problems by enabling them to read text out loud and get word suggestions (predictions) while typing.
 
 Predictions are word completions based on the input text, for example:
 If the input text is `I like ca` the predictions could be `cars`, `cats` and `cake`.
